@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <title>Information Page</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+  </head>
+  <body>
+
+    <header>
+        <div id="webname">webname</div>
+        <nav>
+            <a class="navlink">home</a>
+            <a class="navlink">game</a>
+            <a class="navlink">search</a>
+            <a class="navlink">about</a>
+        </nav>
+    </header>
+
+    <main>
+        <div id="overlay" onclick="closeWindow()"></div>
+        <div id="window"></div>
+        <h1 id="speciesName"></h1>
+        <section id="info">
+            <section id="pics">
+                <!-- <map></map> -->
+            </section>
+            <section id="infoentries">
+                <button onclick="showNames()">Name</button>
+                <button onclick="showStatus()">Conservation Status</button>
+                <button onclick="showHabits()">Behaviour & Diet</button>
+            </section>
+        </section>
+    </main>
+
+    <script type="text/javascript" src="./js/script.js"></script>
+  </body>
+</html>
+
